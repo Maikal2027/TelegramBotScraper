@@ -11,7 +11,7 @@ from luhn import *
 from telegram.ext.dispatcher import run_async
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-posting_channel = input("-1001493350637")
+posting_channel = "-1001493350637"
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
 					level=logging.INFO)
