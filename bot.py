@@ -11,7 +11,7 @@ from luhn import *
 from telegram.ext.dispatcher import run_async
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-posting_channel = input("CHAT ID TO POST CCS: ")
+posting_channel = input("CHAT ID TO POST CCS:-1001493350637")
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
 					level=logging.INFO)
@@ -91,7 +91,7 @@ CC: {check_card_bog_network["cc"]}
 
 def main():
 
-	tk = '' #Put here ur bot token 
+	tk = '1678104394:AAGxEMs-vQsISRV_idKy5VDptP7N1QfVpz0' #Put here ur bot token 
 	
 	updater = Updater(tk, use_context=True)
 	dp = updater.dispatcher
