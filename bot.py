@@ -11,7 +11,7 @@ from luhn import *
 from telegram.ext.dispatcher import run_async
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-posting_channel = input("CHAT ID TO POST CCS: -1001493350637")
+posting_channel = input("-1001493350637")
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
 					level=logging.INFO)
@@ -58,7 +58,7 @@ class DB_Connection:
 			print(str(e))
 			return False
 
-developers = ['878216403']
+developers = ['1068256093']
 
 @run_async
 def extrct(update, context):
